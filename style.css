@@ -1,0 +1,146 @@
+body {
+	margin: 0px;
+   width: 100%;
+   background-color: #F5EEF8;
+}
+
+h1{
+	font-size: 450%;
+	color: #EC7063;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	animation-duration: 2.5s;
+	animation-name: slidein;
+}
+
+.col-lg-12{
+	text-align: center;
+}
+
+p{
+	font-size: 300%;
+	color: #5D6D7E;
+	padding-top: 80px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+img{
+	height: auto;
+   width: auto;
+   max-width: 350px;
+   max-height: 350px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-bottom: 75px;
+}
+
+.affix{
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+	width: 100%;
+	height: 18%;
+}
+
+.btn-primary{
+	height: 100%;
+	border-radius: 0px;
+	margin: -5px;
+	text-transform: uppercase;
+	color: #F5EEF8;
+	letter-spacing: 3px;
+}
+
+.row{
+	text-align: center;
+}
+
+#start, #results, #details{
+	background-color: #FAD7A0;
+	border: transparent;
+	font-size: 300%;
+}
+
+#start:hover, #results:hover, #details:hover{
+	background-color: #F7DC6F;
+	animation-duration: 2s;
+	animation-name: dance;
+}
+
+#yes:hover{
+	background-color: #48C9B0;
+}
+
+#no:hover{
+	background-color: #5DADE2;
+}
+
+#start:active, #results:active, #details:active, #yes:active, #no:active{
+	animation-duration: 2s;
+	animation-name: dance;
+}
+
+@media screen and (max-width: 1600px){
+	#yes{
+		font-size: 480%;
+		width: 45%;
+		background-color: #82E0AA;
+		border: transparent;
+	}
+
+	#no{
+		font-size: 460%;
+		width: 45%;
+		background-color: #AED6F1;
+		border: transparent;
+		margin-right: 25px;
+
+	}
+}
+
+c
+	#yes{
+		font-size: 350%;
+		width: 46%;
+		background-color: #82E0AA;
+		border: transparent;
+	}
+
+	#no{
+		font-size: 350%;
+		width: 46%;
+		background-color: #AED6F1;
+		border: transparent;
+		margin-right: 25px;
+	}
+	p{
+		font-size: 200%;
+		padding-top: 10px;
+	}
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes dance {
+0% {transform: rotate(7deg);}
+10% {transform: rotate(-7deg);}
+20% {transform: rotate(7deg);}
+30% {transform: rotate(-7deg);}
+40% {transform: rotate(7deg);}
+50% {transform: rotate(-7deg);}
+60% {transform: rotate(7deg);}
+70% {transform: rotate(-7deg);}
+80% {transform: rotate(7deg);}
+90% {transform: rotate(-7deg);}
+100% {transform: rotate(7deg);}
+}
